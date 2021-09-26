@@ -1,0 +1,20 @@
+# 常温商品
+obj=good
+name=Combini_Product(Normal Temperate)
+metric=box
+catg=1
+value=3
+weight_per_unit=1
+speed_bonus=10
+DistributionWeight=1
+--------------
+# 低温商品
+obj=good
+name=Combini_Product(Cool Temperate)
+metric=box
+catg=1
+value=3
+weight_per_unit=1
+speed_bonus=10
+DistributionWeight=1
+--------------
