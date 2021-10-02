@@ -1,6 +1,6 @@
 Obj=factory
 Name=Combini_Logistics_Center
-copyright=M.Kousaka / kanyao1230 / Manche / MARK
+copyright=M.Kousaka
 #Location=Land
 DistributionWeight=1
 Productivity=30
@@ -20,10 +20,6 @@ InputGood[2]=beer
 InputCapacity[2]=100
 InputSupplier[2]=1
 InputFactor[2]=200
-InputGood[3]=Buecher
-InputCapacity[3]=100
-InputSupplier[3]=1
-InputFactor[3]=100
 
 #output goods
 OutputGood[0]=Combini_Product(Normal Temperate)
@@ -34,9 +30,9 @@ OutputCapacity[1]=300
 OutputFactor[1]=300
 
 dims=3,2,1
-BackImage[0][0][0][0][0][0]=Delivery_DistrictBase_In_src.0.0
-BackImage[0][0][1][0][0][0]=Delivery_DistrictBase_In_src.0.1
-BackImage[0][0][2][0][0][0]=Delivery_DistrictBase_In_src.0.2
-BackImage[0][0][0][0][0][0]=Delivery_DistrictBase_In_src.0.0
-BackImage[0][1][0][0][0][0]=Delivery_DistrictBase_In_src.0.1
-BackImage[0][2][0][0][0][0]=Delivery_DistrictBase_In_src.0.2
+BackImage[0][0][0][0][0][0]=Logistics_center.0.0
+BackImage[0][0][1][0][0][0]=Logistics_center.0.1
+BackImage[0][0][2][0][0][0]=Logistics_center.0.2
+BackImage[0][1][0][0][0][0]=Logistics_center.0.0
+BackImage[0][1][1][0][0][0]=Logistics_center.0.1
+BackImage[0][1][2][0][0][0]=Logistics_center.0.2

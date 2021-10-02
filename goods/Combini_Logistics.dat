@@ -3,18 +3,22 @@ obj=good
 name=Combini_Product(Normal Temperate)
 metric=box
 catg=1
-value=3
+value=25
 weight_per_unit=1
-speed_bonus=10
+speed_bonus=7
 DistributionWeight=1
 --------------
 # 低温商品
 obj=good
 name=Combini_Product(Cool Temperate)
 metric=box
-catg=1
-value=3
+catg=4
+value=60
 weight_per_unit=1
-speed_bonus=10
+speed_bonus=20
 DistributionWeight=1
 --------------
+
+# 備考
+# 常温商品は基本料金高め、スピードボーナス抑えめ
+# 低温商品は基本料金・スピードボーナス高め
